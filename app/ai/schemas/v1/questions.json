@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "questions.v1.json",
+  "type": "array",
+  "minItems": 3,
+  "items": {
+    "type": "object",
+    "required": ["id", "type", "stem", "options", "explanation", "difficulty", "sourceRef", "origin"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {"type": "string", "minLength": 4},
+      "type": {"enum": ["single", "multi", "judgment", "fill", "match", "order", "short"]},
+      "stem": {"type": "string", "minLength": 4},
+      "options": {"type": "array", "items": {"type": "string"}, "maxItems": 6},
+      "answerIndex": {"type": "integer", "minimum": 0},
+      "answerIndexes": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+      "referenceAnswer": {"type": "string"},
+      "explanation": {"type": "string", "minLength": 4},
+      "difficulty": {"type": "integer", "minimum": 1, "maximum": 3},
+      "sourceRef": {
+        "type": "object",
+        "required": ["page", "excerpt"],
+        "additionalProperties": false,
+        "properties": {
+          "page": {"type": "integer", "minimum": 1},
+          "excerpt": {"type": "string", "minLength": 4}
+        }
+      },
+      "origin": {"enum": ["doc", "ai"]}
+    }
+  }
+}

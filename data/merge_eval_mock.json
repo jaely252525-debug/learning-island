@@ -1,0 +1,99 @@
+{
+  "provider": "mock",
+  "model": "mock",
+  "courseTitle": "药用植物过程工程 · 三讲合集",
+  "schemaErrors": [],
+  "sourceFiles": [
+    "01_总论与资源.pptx",
+    "02_提取技术.pptx",
+    "03_分离与纯化.pptx"
+  ],
+  "sourceCount": 3,
+  "returnedChapters": 1,
+  "returnedSections": 13,
+  "plansBuilt": 1,
+  "duplicateTitlePairs": [],
+  "badRefs": [],
+  "sourcesCovered": [
+    "doc_2467fbb465bd43d5ae3d",
+    "doc_dda7158c6649414cbbb0",
+    "doc_fbc82cb015d2441fb693"
+  ],
+  "sourcesMissing": [],
+  "outline": [
+    {
+      "chapter": "综合资料",
+      "sections": [
+        {
+          "title": "绪论",
+          "refs": 2
+        },
+        {
+          "title": "药用植物资源概述",
+          "refs": 2
+        },
+        {
+          "title": "资源分布与生境",
+          "refs": 2
+        },
+        {
+          "title": "采收与产地加工",
+          "refs": 1
+        },
+        {
+          "title": "课堂练习一",
+          "refs": 1
+        },
+        {
+          "title": "提取技术总论",
+          "refs": 1
+        },
+        {
+          "title": "传统溶剂提取",
+          "refs": 1
+        },
+        {
+          "title": "超临界CO2萃取",
+          "refs": 1
+        },
+        {
+          "title": "超声辅助提取",
+          "refs": 1
+        },
+        {
+          "title": "微波辅助萃取",
+          "refs": 1
+        },
+        {
+          "title": "分离纯化概述",
+          "refs": 1
+        },
+        {
+          "title": "色谱分离",
+          "refs": 1
+        },
+        {
+          "title": "膜分离",
+          "refs": 1
+        }
+      ]
+    }
+  ],
+  "sourceInputs": [
+    {
+      "file": "01_总论与资源",
+      "chapters": 1,
+      "sections": 5
+    },
+    {
+      "file": "02_提取技术",
+      "chapters": 1,
+      "sections": 6
+    },
+    {
+      "file": "03_分离与纯化",
+      "chapters": 1,
+      "sections": 5
+    }
+  ]
+}
